@@ -4,5 +4,5 @@ export enum envConfigEnum {
   DB_PORT = 'DB_PORT',
   DB_DATABASE = 'DB_DATABASE',
   DB_USERNAME = 'DB_USERNAME',
-  DB_PASSWORD = 'DB'
+  DB_PASSWORD = 'DB_PASSWORD'
 }
