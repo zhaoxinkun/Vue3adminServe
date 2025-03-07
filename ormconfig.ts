@@ -11,6 +11,7 @@ import { DataSource, DataSourceOptions } from 'typeorm';
 // 配置env
 import * as fs from 'node:fs';
 import * as dotenv from 'dotenv';
+dotenv.config();
 import { envConfigEnum } from './src/enum/env.config';
 
 // 读取env函数
@@ -21,9 +22,9 @@ function getEnv(env: string): Record<string, unknown> {
   return {};
 }
 
-function buildConnerctionOptions() {
+function buildConnectionOptions() {
   const defaultConfig = getEnv('.env');
-  const envConfig = getEnv(`.env.${process.env.NODE_ENV} || 'development`);
+  const envConfig = getEnv(`.env.${process.env.NODE_ENV || 'development'}`);
   console.log('defaultConfig', defaultConfig);
   console.log('envConfig', envConfig);
   const config = { ...defaultConfig, ...envConfig };
@@ -43,7 +44,7 @@ function buildConnerctionOptions() {
 
 }
 
-export const connectionParams = buildConnerctionOptions()
+export const connectionParams = buildConnectionOptions();
 
 
 // 使用 DataSource改造我们的ormconfig
