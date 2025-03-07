@@ -1,7 +1,8 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Patch, Post } from '@nestjs/common';
 import { UserService } from './user.service';
 import { ConfigService } from '@nestjs/config';
 import { envConfigEnum } from '../enum/env.config';
+import { UserEntity } from './user.entity';
 
 @Controller('user')
 export class UserController {
@@ -11,15 +12,22 @@ export class UserController {
   ) {
   }
 
+  // 查询所有用户
   @Get()
-  GetAll() {
+  find() {
     console.log(this.configService.get(envConfigEnum.DB_TYPE));
     console.log(this.configService.get(envConfigEnum.DB_HOST));
     console.log(this.configService.get(envConfigEnum.DB_PORT));
     console.log(this.configService.get(envConfigEnum.DB_USERNAME));
     console.log(this.configService.get(envConfigEnum.DB_PASSWORD));
     console.log(this.configService.get(envConfigEnum.DB_DATABASE));
-    return this.userService.GetAll();
+    return this.userService.findAll();
+  }
+
+  // 查询username
+  @Get(':username')
+  findOne(@Param('username') username: string) {
+    return this.userService.findOne(username);
   }
 
   // 创建用户
@@ -28,4 +36,17 @@ export class UserController {
   createUser(@Body() users: createUserDto | createUserDto[]) {
     return this.userService.createUser(users);
   }
+
+  // 更新用户信息
+  @Patch(':id')
+  updateUser(@Param('id') id: number, @Body() updateUser: updateUserDto) {
+    return this.userService.updateUser(id, updateUser);
+  }
+
+  // 删除用户
+  @Delete(':id')
+  deleteUser(@Param('id') id: number) {
+    return this.userService.deleteUser(id);
+  }
 }
+

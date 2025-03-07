@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
+
 // 使用nest/config
 import { ConfigModule } from '@nestjs/config';
 
@@ -10,13 +11,13 @@ import * as Joi from 'joi';
 
 // 使用dotenv配置
 import * as dotenv from 'dotenv';
+
+const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
+
 // 配置typeorm
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { connectionParams } from '../ormconfig';
 
-// 注入实体
-
-const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
 
 @Module({
   imports: [UserModule,
@@ -28,6 +29,7 @@ const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
       envFilePath,
       // 动态加载
       load: [() => dotenv.config({ path: '.env' })],
+      // 使用Joi校验
       validationSchema: Joi.object({
         DB_TYPE: Joi.string().required(),
         DB_HOST: Joi.string().required(),
@@ -55,6 +57,8 @@ const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
     //     logging: true,
     //   } as TypeOrmModuleOptions),
     // }),
+
+    // 使用DataSource包裹
     TypeOrmModule.forRoot(connectionParams),
   ],
   controllers: [AppController],
