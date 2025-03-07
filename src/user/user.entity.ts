@@ -1,6 +1,7 @@
-import { Column, Entity, JoinTable, ManyToMany, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, JoinTable, ManyToMany, OneToMany, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { LogEntity } from '../log/log.entity';
 import { RolesEntity } from '../roles/roles.entity';
+import { ProfileEntity } from './profile.entity';
 
 // 创建实体
 @Entity()
@@ -24,4 +25,7 @@ export class UserEntity {
   @ManyToMany(() => RolesEntity, (roles) => roles.users)
   @JoinTable({ name: 'user_roles' })
   roles: RolesEntity[];
+
+  @OneToOne(() => ProfileEntity, profile => profile.user)
+  profile: ProfileEntity;
 }
