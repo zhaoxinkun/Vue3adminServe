@@ -3,9 +3,9 @@
       "module": "commonjs",
       "declaration": true,
       "removeComments": true,
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "allowSyntheticDefaultImports": true,
+      "emitDecoratorMetadata": true, // 是否在编译器输出中包含对装饰器的元数据
+      "experimentalDecorators": true, // 是否允许编译器编译装饰器
+      "allowSyntheticDefaultImports": true,  // 是否允许编译器编译默认导入
       "target": "ES2023",
       "sourceMap": true,
       "outDir": "./dist",

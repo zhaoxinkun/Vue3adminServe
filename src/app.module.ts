@@ -18,9 +18,14 @@ const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { connectionParams } from '../ormconfig';
 
+import { WinstonModule } from 'nest-winston';
+import { winstonLoggerConfig } from './config/LoggerConfig';
+
 
 @Module({
   imports: [UserModule,
+    // 配置日志
+    WinstonModule.forRoot(winstonLoggerConfig),
     // 使用nest/config
     ConfigModule.forRoot({
       // 全局使用

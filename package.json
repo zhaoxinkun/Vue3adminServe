@@ -25,7 +25,7 @@
     "start:hmr": "nest build --webpack --webpackPath webpack-hmr.config.js --watch"
   },
   "dependencies": {
-    "@nestjs/common": "^11.0.1",
+    "@nestjs/common": "^11.0.11",
     "@nestjs/config": "^4.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
@@ -34,9 +34,12 @@
     "dotenv": "^16.4.7",
     "joi": "^17.13.3",
     "mysql2": "^3.13.0",
+    "nest-winston": "^1.10.2",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
-    "typeorm": "0.3.21"
+    "typeorm": "0.3.21",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
