@@ -1,606 +1,243 @@
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T06:27:42.373Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T06:27:42.376Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T06:27:42.376Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T06:27:42.377Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T06:27:42.378Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T06:27:42.379Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T06:27:42.380Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T06:27:42.380Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T06:27:42.382Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T06:29:46.826Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T06:29:46.828Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T06:29:46.829Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T06:29:46.830Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T06:29:46.831Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T06:29:46.832Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T06:29:46.832Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T06:29:46.833Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T06:29:46.834Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T07:25:47.232Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T07:25:47.235Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T07:25:47.236Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T07:25:47.237Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T07:25:47.238Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T07:25:47.239Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T07:25:47.239Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T07:25:47.240Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T07:25:47.242Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T07:55:36.441Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T07:55:36.444Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T07:55:36.445Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T07:55:36.445Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T07:55:36.446Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T07:55:36.447Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T07:55:36.447Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T07:55:36.448Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T07:55:36.450Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T08:29:03.958Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T08:29:03.960Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T08:29:03.961Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T08:29:03.962Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T08:29:03.963Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T08:29:03.964Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T08:29:03.964Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T08:29:03.965Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T08:29:03.966Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T08:29:41.770Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T08:29:41.772Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T08:29:41.773Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T08:29:41.774Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T08:29:41.775Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T08:29:41.775Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T08:29:41.776Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T08:29:41.777Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T08:29:41.778Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T08:32:53.979Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T08:32:53.982Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T08:32:53.982Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T08:32:53.983Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T08:32:53.984Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-07T08:32:53.984Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T08:32:53.985Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T08:32:53.985Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T08:32:53.986Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T08:32:53.987Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T08:43:56.305Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T08:43:56.307Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T08:43:56.308Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T08:43:56.308Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T08:43:56.309Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-07T08:43:56.310Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T08:43:56.310Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T08:43:56.311Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T08:43:56.311Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T08:43:56.313Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T08:51:19.532Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T08:51:19.536Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T08:51:19.537Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T08:51:19.538Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T08:51:19.539Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-07T08:51:19.540Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-07T08:51:19.540Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T08:51:19.541Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T08:51:19.541Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T08:51:19.542Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T08:51:19.543Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-07T09:00:19.418Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-07T09:00:19.421Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-07T09:00:19.422Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-07T09:00:19.423Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-07T09:00:19.423Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-07T09:00:19.424Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-07T09:00:19.425Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-07T09:00:19.425Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-07T09:00:19.426Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-07T09:00:19.426Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-07T09:00:19.428Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T04:07:56.523Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T04:07:56.526Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T04:07:56.527Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T04:07:56.528Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T04:07:56.529Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T04:07:56.529Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T04:07:56.530Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T04:07:56.530Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T04:07:56.531Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T04:07:56.531Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T04:07:56.533Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T04:16:45.894Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T04:16:45.896Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T04:16:45.897Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T04:16:45.898Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T04:16:45.898Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T04:16:45.899Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T04:16:45.900Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T04:16:45.900Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T04:16:45.901Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T04:16:45.901Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T04:16:45.901Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T04:16:45.902Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T04:16:45.904Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:17:21.994Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:17:21.997Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:17:21.998Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:17:21.999Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:17:21.999Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:17:22.000Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:17:22.001Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:17:22.001Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:17:22.002Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:17:22.002Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:17:22.002Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:17:22.003Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:17:22.005Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:43:35.130Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:43:35.132Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:43:35.133Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:43:35.133Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:43:35.134Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:43:35.135Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:43:35.135Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:43:35.136Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:43:35.136Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:43:35.137Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:43:35.137Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:43:35.138Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:43:35.138Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:43:35.139Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:43:35.140Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:44:16.441Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:44:16.444Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:44:16.445Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:44:16.446Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:44:16.446Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:44:16.447Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:44:16.447Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:44:16.448Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:44:16.448Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:44:16.449Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:44:16.449Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:44:16.449Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:44:16.450Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:44:16.450Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:44:16.452Z"}
-{"context":"ExceptionsHandler","error":{},"level":"error","message":"Cannot read properties of undefined (reading 'id')","stack":["TypeError: Cannot read properties of undefined (reading 'id')\n    at AuthService.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.service.ts:10:36)\n    at AuthController.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.controller.ts:10:29)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:38:29\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2025-03-11T06:44:20.454Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:46:44.212Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:46:44.215Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:46:44.216Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:46:44.217Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:46:44.218Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:46:44.219Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:46:44.219Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:46:44.220Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:46:44.220Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:46:44.221Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:46:44.221Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:46:44.222Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:46:44.222Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:46:44.223Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:46:44.226Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:46:52.527Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:46:52.530Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:46:52.530Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:46:52.531Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:46:52.532Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:46:52.532Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:46:52.533Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:46:52.533Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:46:52.534Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:46:52.535Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:46:52.535Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:46:52.536Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:46:52.536Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:46:52.536Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:46:52.538Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:47:07.705Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:47:07.708Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:47:07.709Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:47:07.711Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:47:07.711Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:47:07.713Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:47:07.714Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:47:07.714Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:47:07.716Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:47:07.716Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:47:07.716Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:47:07.717Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:47:07.718Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:47:07.718Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:47:07.720Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:49:51.869Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:49:51.872Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:49:51.872Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:49:51.873Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:49:51.874Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:49:51.874Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:49:51.875Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:49:51.875Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:49:51.876Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:49:51.877Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:49:51.877Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:49:51.877Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:49:51.878Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:49:51.878Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T06:49:51.879Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:49:51.880Z"}
-{"context":"ExceptionsHandler","error":{},"level":"error","message":"Unknown authentication strategy \"jwt\"","stack":["Error: Unknown authentication strategy \"jwt\"\n    at attempt (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"],"timestamp":"2025-03-11T06:50:46.542Z"}
-{"context":"ExceptionsHandler","error":{},"level":"error","message":"Unknown authentication strategy \"jwt\"","stack":["Error: Unknown authentication strategy \"jwt\"\n    at attempt (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"],"timestamp":"2025-03-11T06:51:39.469Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:54:02.533Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:54:02.535Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:54:02.536Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:54:02.537Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:54:02.538Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:54:02.538Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:54:02.539Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:54:02.539Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:54:02.540Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:54:02.541Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:54:02.541Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:54:02.541Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:54:02.542Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:54:02.542Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T06:54:02.543Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:54:02.545Z"}
-{"context":"ExceptionsHandler","error":{},"level":"error","message":"Unknown authentication strategy \"jwt\"","stack":["Error: Unknown authentication strategy \"jwt\"\n    at attempt (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"],"timestamp":"2025-03-11T06:54:07.300Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:54:38.228Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:54:38.231Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:54:38.231Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:54:38.232Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:54:38.233Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:54:38.233Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:54:38.233Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:54:38.234Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:54:38.234Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:54:38.235Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:54:38.235Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:54:38.236Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:54:38.236Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:54:38.236Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T06:54:38.237Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:54:38.238Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T06:55:14.033Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T06:55:14.036Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T06:55:14.036Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T06:55:14.037Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T06:55:14.038Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T06:55:14.038Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T06:55:14.039Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T06:55:14.040Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T06:55:14.040Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T06:55:14.041Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T06:55:14.041Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T06:55:14.042Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T06:55:14.042Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T06:55:14.043Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T06:55:14.044Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T06:55:14.045Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:19:04.431Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:19:04.433Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:19:04.434Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:19:04.434Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:19:04.435Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:19:04.436Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:19:04.436Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:19:04.437Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:19:04.437Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:19:04.438Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:19:04.438Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:19:04.439Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:19:04.439Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:19:04.439Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:19:04.440Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:19:04.441Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:19:07.174Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:19:07.177Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:19:07.177Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:19:07.179Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:19:07.180Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:19:07.180Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:19:07.181Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:19:07.181Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:19:07.182Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:19:07.182Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:19:07.183Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:19:07.183Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:19:07.183Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:19:07.184Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:19:07.184Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:19:07.186Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:38:18.721Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:38:18.723Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:38:18.724Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:38:18.725Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:38:18.726Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:38:18.726Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:38:18.727Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:38:18.727Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:38:18.728Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:38:18.728Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:38:18.729Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:38:18.729Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:38:18.730Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:38:18.730Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:38:18.730Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:38:18.732Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:38:21.510Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:38:21.513Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:38:21.514Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:38:21.515Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:38:21.515Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:38:21.516Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:38:21.517Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:38:21.517Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:38:21.518Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:38:21.518Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:38:21.519Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:38:21.519Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:38:21.520Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:38:21.520Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:38:21.521Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:38:21.523Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:38:24.887Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:38:24.889Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:38:24.890Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:38:24.891Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:38:24.891Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:38:24.892Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:38:24.893Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:38:24.893Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:38:24.894Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:38:24.894Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:38:24.894Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:38:24.895Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:38:24.895Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:38:24.896Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:38:24.896Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:38:24.898Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:38:30.122Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:38:30.125Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:38:30.126Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:38:30.127Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:38:30.127Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:38:30.128Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:38:30.128Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:38:30.129Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:38:30.130Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:38:30.130Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:38:30.131Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:38:30.131Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:38:30.132Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:38:30.132Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:38:30.133Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:38:30.134Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:38:55.385Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:38:55.388Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:38:55.389Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:38:55.390Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:38:55.391Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:38:55.391Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:38:55.392Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:38:55.392Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:38:55.393Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:38:55.393Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:38:55.394Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:38:55.394Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:38:55.395Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:38:55.395Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:38:55.396Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:38:55.398Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:39:37.650Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:39:37.652Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:39:37.653Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:39:37.654Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:39:37.654Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:39:37.655Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:39:37.655Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:39:37.656Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:39:37.656Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:39:37.657Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:39:37.657Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:39:37.658Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:39:37.658Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:39:37.659Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:39:37.659Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:39:37.660Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:39:55.814Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:39:55.817Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:39:55.817Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:39:55.818Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:39:55.819Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:39:55.820Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:39:55.820Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:39:55.821Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:39:55.822Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:39:55.822Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:39:55.823Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:39:55.823Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:39:55.824Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:39:55.824Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:39:55.825Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:39:55.827Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:40:19.665Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:40:19.668Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:40:19.668Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:40:19.669Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:40:19.670Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:40:19.670Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:40:19.671Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:40:19.671Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:40:19.672Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:40:19.672Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:40:19.672Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:40:19.673Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:40:19.673Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:40:19.674Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:40:19.674Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T07:40:19.674Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:40:19.676Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T07:43:31.487Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T07:43:31.489Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T07:43:31.490Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T07:43:31.491Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T07:43:31.492Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T07:43:31.492Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T07:43:31.493Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T07:43:31.493Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T07:43:31.494Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T07:43:31.494Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T07:43:31.495Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T07:43:31.495Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T07:43:31.495Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T07:43:31.496Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T07:43:31.496Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T07:43:31.497Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T07:43:31.499Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:03:36.247Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:03:36.249Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:03:36.250Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:03:36.251Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:03:36.251Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:03:36.252Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:03:36.252Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:03:36.253Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:03:36.253Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:03:36.254Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:03:36.254Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:03:36.255Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:03:36.255Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:03:36.255Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:03:36.256Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T08:03:36.256Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:03:36.258Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:08:01.668Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:08:01.671Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:08:01.672Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:08:01.673Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:08:01.673Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:08:01.674Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:08:01.674Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:08:01.675Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:08:01.675Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:08:01.676Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:08:01.676Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:08:01.677Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:08:01.677Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:08:01.677Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:08:01.678Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T08:08:01.678Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:08:01.679Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:19:07.294Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:19:07.297Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:19:07.297Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:19:07.298Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:19:07.299Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:19:07.299Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:19:07.300Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:19:07.300Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:19:07.301Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:19:07.302Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:19:07.302Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:19:07.303Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:19:07.304Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:19:07.304Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:19:07.306Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T08:19:07.307Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:19:07.310Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:22:26.148Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:22:26.151Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:22:26.151Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:22:26.152Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:22:26.153Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:22:26.153Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:22:26.154Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:22:26.154Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:22:26.155Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:22:26.155Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:22:26.155Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:22:26.156Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:22:26.156Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:22:26.157Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:22:26.157Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T08:22:26.157Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:22:26.159Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:23:30.695Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:23:30.698Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:23:30.699Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:23:30.700Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:23:30.701Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:23:30.702Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:23:30.702Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:23:30.703Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:23:30.703Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:23:30.704Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:23:30.704Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:23:30.705Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:23:30.705Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:23:30.706Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:23:30.706Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T08:23:30.706Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:23:30.708Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:23:42.430Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:23:42.433Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:23:42.433Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:23:42.434Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:23:42.435Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:23:42.435Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:23:42.436Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:23:42.436Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:23:42.437Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:23:42.437Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:23:42.438Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:23:42.438Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:23:42.438Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:23:42.439Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:23:42.439Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T08:23:42.440Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:23:42.441Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:27:16.880Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:27:16.883Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:27:16.883Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:27:16.884Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:27:16.885Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:27:16.886Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:27:16.887Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:27:16.887Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:27:16.888Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:27:16.888Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:27:16.889Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:27:16.890Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:27:16.890Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:27:16.890Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:27:16.891Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh-token, POST} route","timestamp":"2025-03-11T08:27:16.891Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:27:16.895Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:28:43.212Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:28:43.214Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:28:43.215Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:28:43.216Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:28:43.216Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:28:43.217Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:28:43.217Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:28:43.218Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:28:43.218Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:28:43.219Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:28:43.219Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:28:43.220Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:28:43.220Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:28:43.220Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:28:43.221Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:28:43.222Z"}
-{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T08:42:22.534Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T08:42:22.537Z"}
-{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T08:42:22.537Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T08:42:22.538Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T08:42:22.539Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T08:42:22.539Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T08:42:22.539Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T08:42:22.540Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T08:42:22.541Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T08:42:22.541Z"}
-{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T08:42:22.541Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T08:42:22.542Z"}
-{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T08:42:22.542Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T08:42:22.543Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T08:42:22.543Z"}
-{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh, POST} route","timestamp":"2025-03-11T08:42:22.543Z"}
-{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T08:42:22.545Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:08:24.738Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:08:24.740Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:08:24.741Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:08:24.742Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:08:24.742Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:08:24.743Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:08:24.743Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:08:24.744Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:08:24.744Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:08:24.745Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:08:24.745Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:08:24.745Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:08:24.746Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:08:24.746Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T10:08:24.747Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh, POST} route","timestamp":"2025-03-11T10:08:24.747Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:08:24.748Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:10:38.460Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:10:38.462Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:10:38.463Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:10:38.464Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:10:38.464Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:10:38.465Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:10:38.465Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:10:38.466Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:10:38.466Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:10:38.467Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:10:38.467Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:10:38.468Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:10:38.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:10:38.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T10:10:38.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/refresh, POST} route","timestamp":"2025-03-11T10:10:38.469Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:10:38.471Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:14:17.823Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:14:17.825Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:14:17.826Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:14:17.826Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:14:17.827Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:14:17.827Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:14:17.828Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:14:17.828Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:14:17.829Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:14:17.829Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:14:17.830Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:14:17.830Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:14:17.830Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:14:17.831Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:14:17.832Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"secretOrPrivateKey must have a value","stack":["Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (F:\\Nest\\nestvueserve\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at JwtService.sign (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\jwt\\dist\\jwt.service.js:41:20)\n    at AuthService.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.service.ts:11:41)\n    at AuthController.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.controller.ts:15:29)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:38:29\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2025-03-11T10:14:20.619Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"secretOrPrivateKey must have a value","stack":["Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (F:\\Nest\\nestvueserve\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at JwtService.sign (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\jwt\\dist\\jwt.service.js:41:20)\n    at AuthService.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.service.ts:11:41)\n    at AuthController.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.controller.ts:15:29)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:38:29\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2025-03-11T10:14:22.767Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"secretOrPrivateKey must have a value","stack":["Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (F:\\Nest\\nestvueserve\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at JwtService.sign (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\jwt\\dist\\jwt.service.js:41:20)\n    at AuthService.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.service.ts:11:41)\n    at AuthController.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.controller.ts:15:29)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:38:29\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2025-03-11T10:14:24.254Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:14:46.251Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:14:46.253Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:14:46.254Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:14:46.255Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:14:46.255Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:14:46.256Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:14:46.256Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:14:46.257Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:14:46.257Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:14:46.258Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:14:46.258Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:14:46.259Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:14:46.259Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:14:46.260Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:14:46.261Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"secretOrPrivateKey must have a value","stack":["Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (F:\\Nest\\nestvueserve\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at JwtService.sign (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\jwt\\dist\\jwt.service.js:41:20)\n    at AuthService.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.service.ts:11:41)\n    at AuthController.login (F:\\Nest\\nestvueserve\\src\\auth\\auth.controller.ts:13:29)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:38:29\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2025-03-11T10:14:48.760Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:16:14.185Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:16:14.187Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:16:14.187Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:16:14.188Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:16:14.189Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:16:14.189Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:16:14.190Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:16:14.190Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:16:14.191Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:16:14.192Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:16:14.192Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:16:14.192Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:16:14.193Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:16:14.193Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:16:14.194Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:16:17.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:16:17.166Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:16:17.167Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:16:17.168Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:16:17.170Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:16:17.172Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:16:17.173Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:16:17.174Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:16:17.175Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:16:17.176Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:16:17.178Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:16:17.180Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:16:17.181Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:16:17.181Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:16:17.184Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:16:19.820Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:16:19.822Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:16:19.823Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:16:19.824Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:16:19.824Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:16:19.825Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:16:19.825Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:16:19.826Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:16:19.826Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:16:19.827Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:16:19.827Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:16:19.827Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:16:19.828Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:16:19.828Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:16:19.830Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:17:27.190Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:17:27.194Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:17:27.196Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:17:27.198Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:17:27.199Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:17:27.199Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:17:27.200Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:17:27.201Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:17:27.201Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:17:27.202Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:17:27.202Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:17:27.203Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:17:27.204Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:17:27.204Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:17:27.206Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:17:30.396Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:17:30.399Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:17:30.399Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:17:30.400Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:17:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:17:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:17:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:17:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:17:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:17:30.403Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:17:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:17:30.404Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:17:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:17:30.404Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:17:30.406Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:17:33.932Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:17:33.935Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:17:33.935Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:17:33.936Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:17:33.936Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:17:33.937Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:17:33.937Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:17:33.938Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:17:33.938Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:17:33.939Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:17:33.939Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:17:33.940Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:17:33.940Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:17:33.940Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:17:33.942Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:19:27.898Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:19:27.900Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:19:27.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:19:27.902Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:19:27.903Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:19:27.903Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:19:27.904Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:19:27.904Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:19:27.905Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:19:27.905Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:19:27.905Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:19:27.906Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:19:27.906Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:19:27.906Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T10:19:27.907Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:19:27.908Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:19:33.998Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:19:34.000Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:19:34.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:19:34.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:19:34.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:19:34.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:19:34.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:19:34.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:19:34.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:19:34.005Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:19:34.005Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:19:34.006Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:19:34.007Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:19:34.007Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T10:19:34.008Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:19:34.009Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"Unknown authentication strategy \"jwt\"","stack":["Error: Unknown authentication strategy \"jwt\"\n    at attempt (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"],"timestamp":"2025-03-11T10:19:51.866Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"Unknown authentication strategy \"jwt\"","stack":["Error: Unknown authentication strategy \"jwt\"\n    at attempt (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"],"timestamp":"2025-03-11T10:20:56.520Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:22:51.558Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:22:51.560Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:22:51.561Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:22:51.562Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:22:51.562Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:22:51.563Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:22:51.563Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:22:51.564Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:22:51.565Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:22:51.565Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:22:51.566Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:22:51.566Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:22:51.567Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:22:51.568Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T10:22:51.568Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:22:51.570Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"Unknown authentication strategy \"jwt\"","stack":["Error: Unknown authentication strategy \"jwt\"\n    at attempt (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"],"timestamp":"2025-03-11T10:22:54.245Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"Unknown authentication strategy \"jwt\"","stack":["Error: Unknown authentication strategy \"jwt\"\n    at attempt (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"],"timestamp":"2025-03-11T10:22:55.704Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:25:09.569Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:25:09.571Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:25:09.572Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:25:09.573Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:25:09.573Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:25:09.574Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:25:09.574Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:25:09.575Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:25:09.575Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:25:09.576Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:25:09.576Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:25:09.576Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:25:09.577Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:25:09.577Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T10:25:09.577Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:25:09.579Z"}
+{"context":"ExceptionsHandler","error":{},"level":"error","message":"Unknown authentication strategy \"jwt\"","stack":["Error: Unknown authentication strategy \"jwt\"\n    at attempt (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (F:\\Nest\\nestvueserve\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (F:\\Nest\\nestvueserve\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"],"timestamp":"2025-03-11T10:25:12.041Z"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2025-03-11T10:25:56.243Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2025-03-11T10:25:56.246Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:","timestamp":"2025-03-11T10:25:56.246Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, GET} route","timestamp":"2025-03-11T10:25:56.247Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:username, GET} route","timestamp":"2025-03-11T10:25:56.248Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route","timestamp":"2025-03-11T10:25:56.248Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logs, GET} route","timestamp":"2025-03-11T10:25:56.249Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route","timestamp":"2025-03-11T10:25:56.249Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, PATCH} route","timestamp":"2025-03-11T10:25:56.250Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/:id, DELETE} route","timestamp":"2025-03-11T10:25:56.251Z"}
+{"context":"RoutesResolver","level":"info","message":"SchollController {/scholl}:","timestamp":"2025-03-11T10:25:56.251Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/scholl, GET} route","timestamp":"2025-03-11T10:25:56.252Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2025-03-11T10:25:56.252Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2025-03-11T10:25:56.253Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/profile, GET} route","timestamp":"2025-03-11T10:25:56.253Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2025-03-11T10:25:56.255Z"}

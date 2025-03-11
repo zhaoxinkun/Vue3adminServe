@@ -6,20 +6,12 @@ export class AuthService {
   constructor(private readonly jwtService: JwtService) {
   }
 
-
-  // 生成 Access Token
-  generateAccessToken(user: any) {
+  login(user: any) {
     const payload = { userId: user.id, username: user.username };
-    return this.jwtService.sign(payload, { secret: 'my-secret-key', expiresIn: '1m' });
+    const accessToken = this.jwtService.sign(payload);
+    return {
+      accessToken,
+    };
   }
-
-  // 生成 Refresh Token
-  generateRefreshToken(user: any) {
-    const payload = { userId: user.id };
-    return this.jwtService.sign(payload, { secret: 'my-refresh-secret-key', expiresIn: '7d' });
-  }
-
-
-
 
 }
