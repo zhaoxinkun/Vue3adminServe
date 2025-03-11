@@ -6,7 +6,9 @@ import { WINSTON_MODULE_NEST_PROVIDER } from 'nest-winston';
 export class AppController {
   constructor(
     private readonly appService: AppService,
-    @Inject(WINSTON_MODULE_NEST_PROVIDER) private readonly logger: LoggerService,
+    // 使用日志
+    @Inject(WINSTON_MODULE_NEST_PROVIDER)
+    private readonly logger: LoggerService,
   ) {
   }
 

@@ -1,27 +1,28 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Inject, LoggerService, Param, Patch, Post, Query } from '@nestjs/common';
 import { UserService } from './user.service';
 import { ConfigService } from '@nestjs/config';
 import { envConfigEnum } from '../enum/env.config';
-import { UserEntity } from './user.entity';
+import { WINSTON_MODULE_NEST_PROVIDER } from 'nest-winston';
+
 
 @Controller('user')
 export class UserController {
   constructor(
     private userService: UserService,
     private configService: ConfigService,
+    // 使用日志
+    @Inject(WINSTON_MODULE_NEST_PROVIDER)
+    private readonly logger: LoggerService,
   ) {
   }
 
+
   // 查询所有用户
   @Get()
-  find() {
+  getUsers(@Query() query:getUserDto ) {
+    // 测试nest/config
     console.log(this.configService.get(envConfigEnum.DB_TYPE));
-    console.log(this.configService.get(envConfigEnum.DB_HOST));
-    console.log(this.configService.get(envConfigEnum.DB_PORT));
-    console.log(this.configService.get(envConfigEnum.DB_USERNAME));
-    console.log(this.configService.get(envConfigEnum.DB_PASSWORD));
-    console.log(this.configService.get(envConfigEnum.DB_DATABASE));
-    return this.userService.findAll();
+    return this.userService.findAll(query);
   }
 
   // 查询username
@@ -29,6 +30,20 @@ export class UserController {
   findOne(@Param('username') username: string) {
     return this.userService.findOne(username);
   }
+
+// 查询用户的profile
+  @Get('/profile')
+  getUserProfile(@Query('id') id: number) {
+    return this.userService.getUserProfile(id);
+  }
+
+
+  // 查询用户的logs
+  @Get('/logs')
+  getUserLogs(@Query('id') id: number): any {
+    return this.userService.getUserLogs(id);
+  }
+
 
   // 创建用户
   @Post()

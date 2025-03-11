@@ -20,6 +20,8 @@ import { connectionParams } from '../ormconfig';
 
 import { WinstonModule } from 'nest-winston';
 import { winstonLoggerConfig } from './config/LoggerConfig';
+import { SchollModule } from './scholl/scholl.module';
+import { AuthModule } from './auth/auth.module';
 
 
 @Module({
@@ -65,6 +67,8 @@ import { winstonLoggerConfig } from './config/LoggerConfig';
 
     // 使用DataSource包裹
     TypeOrmModule.forRoot(connectionParams),
+    SchollModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],

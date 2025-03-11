@@ -58,10 +58,10 @@ const AppDataSource = new DataSource({
 export default AppDataSource;
 
 // 对于生成的数据库连接，我们可以使用以下代码进行初始化测试：
-AppDataSource.initialize().then(async () => {
+AppDataSource.initialize().then(() => {
   console.log('Data Source has been initialized!');
-  const res = await AppDataSource.manager.find(UserEntity);
-  console.log('Here you can setup and run express / fastify / any other framework.', res);
+  // const res = await AppDataSource.manager.find(UserEntity);
+  // console.log('Here you can setup and run express / fastify / any other framework.', res);
 }).catch((err) => {
   console.error('Error during Data Source initialization', err);
 });
